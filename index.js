@@ -20,7 +20,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5100;
 const DO_AGENT_KEY = process.env.DO_AGENT_KEY;
 
 // Mapping of categories to Agent configuration
